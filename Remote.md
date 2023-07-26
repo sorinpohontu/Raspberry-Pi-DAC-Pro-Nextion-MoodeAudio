@@ -8,7 +8,7 @@ Basically, you can use any IR sensor with any Remote, see `Notes` below.
 
 - See [TSOP34836 datasheet](docs/Datasheet/TSOP348.pdf) for details about pins.
 - Connect pin 1 to `GPIO 17` (you will use `pin 11` for `CLI.py`)
-- Copy [IR Remote Script](files/usr/local/sbin/remote-moode.py) to: `/usr/local/sbin/ir-remote-moode.py`
+- Copy [IR Remote Script](files/usr/local/sbin/ir-remote-moode.py) to: `/usr/local/sbin/ir-remote-moode.py`
 - Create a `systemd` Service:
 
 ```
