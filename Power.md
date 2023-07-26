@@ -8,7 +8,7 @@ I'm using [an I2C RTC module](RTC.md), so I want to use `GPIO 3` as `I2C Clock` 
 - Connect one pin to any free `Ground` (eg: 39)
 - Connect the second pin to:
 1. `GPIO 27` (you can use other unused pin, see [boot/config.txt](files/boot/config.txt))
-2. Through diode to `GPIO 3 (I2C Clock)`. See the links above for details.
+2. Through diode to `GPIO 3 (I2C Clock)`. See the links above for `why` and details.
 
 ![Schematic](/media/Schematic.png)
 
