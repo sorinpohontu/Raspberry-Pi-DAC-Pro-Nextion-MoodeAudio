@@ -16,9 +16,9 @@ See [drawings](drawings).
 - Use Raspberry Pi Imager [https://www.raspberrypi.com/software] to install moodeAudio Legacy[^1] [https://moodeaudio.org/] to SD Card.
 - Make sure you have selected `Enable SSH` on Raspberry Pi Imager (`Advanced options`)
 
-## Updating `/boot/config.txt`
-- See [Config.md](Config.md)
-
+## Setup
+1. Update `/boot/config.txt` [Config.md](Config.md)
+2. Update `Audio Settings` [Audio.md](Audio.md)
 
 ---
 [^1]: Raspberry Pi 2 Model B Rev 1.1 does not support 64-bit kernel.
