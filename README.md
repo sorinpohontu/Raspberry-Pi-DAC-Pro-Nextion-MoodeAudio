@@ -17,7 +17,7 @@ See [drawings](drawings).
 - Make sure you have selected `Enable SSH` on Raspberry Pi Imager (`Advanced options`)
 
 ## Updating `/boot/config.txt`
-- [Updating config](1. Updating config.md)
+- See [Config.md](Config.md)
 
 
 ---
