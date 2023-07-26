@@ -1,4 +1,4 @@
-## Updating `/boot/config.txt`
+# Updating `/boot/config.txt`
 - See [config.txt](files/boot/config.txt)
 - Login by SSH to your device and make necessary changes: `sudo nano /boot/config.txt`
 
