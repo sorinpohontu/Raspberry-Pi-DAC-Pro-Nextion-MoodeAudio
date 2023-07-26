@@ -1,4 +1,6 @@
-# Setup RTC I2C module
+# Connect and setup RTC I2C module
+
+This is the module used: DS1307 RTC Module [https://www.aliexpress.com/item/1005005395913556.html] (link is only as for reference).
 
 - Connect the module as in [Schematic](/media/Schematic.png).
 - Make sure `Enable I2C (RTC Module)` in [boot/config.txt](files/boot/config.txt)

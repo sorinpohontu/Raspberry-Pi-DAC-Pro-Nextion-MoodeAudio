@@ -1,10 +1,10 @@
-# Power ON/OFF button
+# Connect and setup Power ON/OFF button
 
-I was inspired by this comment: [https://raspberrypi.stackexchange.com/questions/72676/can-you-make-an-on-off-power-button-with-a-single-non-i2c-gpio-pin/85316#85316].
+I was inspired by this comment: [https://raspberrypi.stackexchange.com/a/85316].
 
-I'm using [an I2C RTC module](RTC.md), so I want to use `GPIO 3` as `I2C Clock` and `wake from halt` [https://raspberrypi.stackexchange.com/questions/22524/power-on-from-idle-with-gpio3-undocumented].
+I'm using [an I2C RTC module](RTC.md), so I want to use `GPIO 3` as `I2C Clock` and `wake from halt` [https://raspberrypi.stackexchange.com/q/22524].
 
-- Use a momentary switch for `Power` button
+- Use a momentary switch for `Power` button, as in [Schematic](/media/Schematic.png).
 - Connect one pin to any free `Ground` (eg: 39)
 - Connect the second pin to:
 1. `GPIO 27` (you can use other unused pin, see [boot/config.txt](files/boot/config.txt))
@@ -13,8 +13,9 @@ I'm using [an I2C RTC module](RTC.md), so I want to use `GPIO 3` as `I2C Clock` 
 ![Schematic](/media/Schematic.png)
 
 ## References
-- https://raspberrypi.stackexchange.com/questions/72676/can-you-make-an-on-off-power-button-with-a-single-non-i2c-gpio-pin/85316#85316
-- https://raspberrypi.stackexchange.com/questions/22524/power-on-from-idle-with-gpio3-undocumented
+- https://raspberrypi.stackexchange.com/a/85316
+- https://raspberrypi.stackexchange.com/q/22524
 - https://elinux.org/RPI_safe_mode#cite_note-1
 - https://forums.raspberrypi.com/viewtopic.php?t=318122
+- https://gist.github.com/lbussy/9e81cbcc617952f1250e353bd42e7775
 
