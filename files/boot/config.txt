@@ -13,15 +13,21 @@ hdmi_blanking=1
 hdmi_force_edid_audio=1
 hdmi_force_hotplug=1
 hdmi_group=0
+
 # Enable I2C (RTC Module)
 dtparam=i2c_arm=on
+dtoverlay=i2c-rtc,ds1307
+
 # Disable on-board audio
 dtparam=audio=off
+
 # Enable I2S DAC
 dtparam=i2s=on
 dtoverlay=iqaudio-dacplus
+
 # Shutdown button on GPIO 27
 dtoverlay=gpio-shutdown,gpio_pin=27
+
 # IR Remote on GPIO 17
 dtoverlay=gpio-ir,gpio_pin=17
 # Enable serial ports
