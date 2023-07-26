@@ -40,6 +40,12 @@ Calculated Hardware Clock drift is 0.000000 seconds
 2023-07-26 19:14:17.662126+03:00
 ```
 
+- Remove the fake hwclock package. This package acts as a placeholder for the real hardware clock when you don’t have one
+```
+sudo apt-get purge fake-hwclock
+```
+
+
 ![Schematic](/media/Schematic.png)
 
 ## References
